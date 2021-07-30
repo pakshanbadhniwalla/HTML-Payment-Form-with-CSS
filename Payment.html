@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form </title>
+<link rel="stylesheet" href="style1.css">
+
+</head>
+<body>
+    
+    <a href="https://www.google.com">
+        <button class="Rectangle_2">
+            <rect id="Rectangle_2" rx="29" ry="29" x="0" y="0" width="170" height="58">Home
+            </rect>
+        </button>
+    </a>
+    <br>
+    <br>
+    <div class="container">
+    <h1>WELCOME TO THE PAYMENT PAGE</h1>
+    <hr>
+
+    <h2>USER INFORMATION</h2> 
+    <form action="">
+        <p>Name : <br><br> <input type="text" name="name" required placeholder="Tony Stark"></p>
+<fieldset> <legend>Gender</legend>
+        <p>Male : <input type="radio" name="gender" id="male"> <br>Female : <input type="radio" name="gender" id="female" required></p>
+    </fieldset>
+<br>
+    <p>Address : <br><br> <textarea name="address" id="adresss" cols="100" rows="10" required placeholder="Malibu Point"></textarea></p>
+    <br>
+    <p>Email :<br><br> <input type="email" name="email" id="email" required placeholder="xyz@gmail.com"></p>
+    <br>
+    <p>Password : <br><br><input type="password" name="" id="" required>
+    </p>
+    <br>
+    <p>Pincode : <br><br><input type="number" name="pincode" id="pincode" required></p>
+    <br>
+    
+
+    <h3>Please Enter Payment Related Information</h3>
+    <br>
+    
+
+<fieldset>
+    <p>Card Type :  <br><br>
+        <img src="D:\WEB DEVELOPMENT\Mega Project/hi.jpg" alt="An Image"id="i1">
+        <select name="card_type" id="card_type" required>
+            <option value="">---Select Card Type---</option>
+            <option value="visa">Visa</option>
+            <option value="mastercard">MasterCard</option>
+            <option value="Americanexpress">American Express</option>
+        </select>
+    </p>
+<br>
+    <p>Card Number : <br><br>
+       <input type="number" name="card_number" id="card_number" required>
+    </p>
+    <br>
+    <p>Expiration Date :<br><br>
+        <input type="date" name="expiration_date" id="expiration_date" required>
+    </p>
+    <br>
+    <p>
+        Name Of Holder :<br><br>
+        <input type="text" name ="name_of_holder" id="name_of_holder" required placeholder="As On Card">
+    </p>
+    <p>CVV :<br><br>
+        <input type="password" name="cvv" id="cvv" required>
+    </p>
+</fieldset>
+<br>
+
+<input type="submit" value="Pay Now">
+    </form>
+</div>   
+</body>
+</html>
+

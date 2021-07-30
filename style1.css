@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   margin:  15px 30px;
+   padding:10px
+}
+
+.container {
+    background-color:#f2f2f2;
+    padding: 30px 20px 20px;
+    border: darkgrey;
+    border-radius: 20px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+
+select,
+textarea {
+    width: 100%;
+    padding: 20px;
+    border: darkgrey;
+    border-radius: 20px;
+}
+input[type="submit"]{
+    background-color: forestgreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    height: 40px;
+    color: honeydew;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: rgb(84, 196, 130);
+}
+
+#b1,#b2{
+    background-color: rgb(67, 137, 165);
+ width: 15%;
+height: 22px;
+border-radius: 20px;
+}
+a:hover{
+    cursor: pointer;
+    text-emphasis: none;
+    text-decoration: none;
+    background-color: rgb(91, 127, 148);
+}
+a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: lightcyan;
+    font-weight: bold;
+
+
+}
+
+ img{
+     width: 100px;
+ }
+ #Rectangle_2 {
+    fill: rgba(255,255,255,1);
+    cursor: pointer;
+}
+.Rectangle_2 {
+    position: top;
+    overflow: visible;
+    width: 170px;
+    height: 58px;
+    left: 183px;
+    top: 166px;
+    border-radius: 30px;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
